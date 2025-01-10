@@ -7,6 +7,7 @@ import im from "../../assets/im.jpg"
 import im0 from "../../assets/im0.jpg"
 import im4 from "../../assets/im4.jpg"
 import im5 from "../../assets/im5.jpg"
+import im6 from "../../assets/im6.jpg"
 function Section4() {
 
     useEffect(() => {
@@ -105,8 +106,8 @@ function Section4() {
             </div>
         </div>
                          
-        <div className="item " >
-              <img src={im3}  alt=""/>
+        <div className="item despair" >
+              <img src={im6}  alt=""/>
             <div className="content">
             <div className="name" style={{color:"white",textShadow:"1px 2.5px 3px black"}}>
             <h1 style={{fontFamily:"fantasy",fontSize:"2.4rem"}}>From Despair to Hope: A Journey to a Better Life</h1>

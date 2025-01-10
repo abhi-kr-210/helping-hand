@@ -25,6 +25,9 @@
     object-fit: cover;
     object-position: right; 
 }
+.slider .slide .despair img{
+    object-position: center !important; 
+}
 .slider .slide .item::after{
     content: "";
     position: absolute;
@@ -37,7 +40,7 @@
 }
 .slider .slide .item .content{
        position: absolute;
-       left:10%;
+       left:8%;
        top:10%;
        width:600px;
        max-width: 80%;

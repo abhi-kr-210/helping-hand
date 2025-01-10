@@ -15,7 +15,7 @@ function Login() {
     let formErrors = {};
 
     if (!email) {
-      formErrors.email = 'Email is required';
+      formErrors.email ='Email is required';
     }
 
     if (!password) {
